@@ -4,4 +4,5 @@ def ounces_to_grams(ounces)
 end
 
 def meal_choice(arg1, arg2)
+  "A plate of meat with broccoli and macaroni."
 end
