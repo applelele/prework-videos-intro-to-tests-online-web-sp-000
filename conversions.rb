@@ -4,5 +4,6 @@ def ounces_to_grams(ounces)
 end
 
 def meal_choice(veg, starch, protain="meat")
+  puts "What a nutritious meal!"
   "A plate of #{protain} with #{veg} and #{starch}."
 end
