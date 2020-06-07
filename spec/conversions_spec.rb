@@ -8,3 +8,9 @@ describe "conversions" do
     end
   end
 end
+
+describe "#meal_choice" do
+  if "should default to meat for the protain" do
+    expect(meal_choice("broccoli", "macaroni")).to_eq("A plate of meat with broccoli and macaroni.")
+  end
+end
